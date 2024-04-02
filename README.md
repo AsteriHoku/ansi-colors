@@ -16,4 +16,9 @@ console.log(coloredString);
 console.log(
 	`${'colors'.fg('yellow').bg('red').clearAll()} ${'are'.fg('blue').bg('cyan').clearAll()} fun!`
 );
+
+console.log('Rainbow Foreground'.rfg());
+
+const rbgStr = 'Rainbow Background';
+console.log(rbgStr.rbg());
 ```
